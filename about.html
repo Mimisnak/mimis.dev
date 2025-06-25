@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Σπουδές & Εμπειρία - Δημήτριος Νάκος</title>
+    <meta name="description" content="Οι σπουδές και η εμπειρία του Δημήτρη Νάκου">
+    <link rel="stylesheet" href="Untitled-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://via.placeholder.com/32x32/3498db/ffffff?text=DN" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><i class="fas fa-code"></i> mimis.dev</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link" data-lang="nav.home">Αρχική</a>
+                <a href="about.html" class="nav-link active" data-lang="nav.about">Βιογραφικό</a>
+                <a href="projects.html" class="nav-link" data-lang="nav.projects">Έργα</a>
+                <a href="contact.html" class="nav-link" data-lang="nav.contact">Επικοινωνία</a>
+            </div>
+            <div class="nav-extras">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i> EN
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fas fa-graduation-cap"></i> <span data-lang="about.title">Σπουδές & Εμπειρία</span></h1>
+                <p data-lang="about.subtitle">Η εκπαιδευτική μου πορεία και οι δεξιότητες που έχω αναπτύξει</p>
+                <div class="breadcrumb">
+                    <a href="index.html" data-lang="breadcrumb.home">Αρχική</a> <span>/</span> <span data-lang="breadcrumb.about">Βιογραφικό</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content" style="display: flex; justify-content: center;">
+                <div class="education" style="max-width: 800px; width: 100%; text-align: center;">
+                    <h3 style="text-align: center;"><i class="fas fa-graduation-cap"></i> <span data-lang="about.education">Εκπαίδευση & Εμπειρία</span></h3>
+                    
+                    <!-- Πανεπιστήμιο -->
+                    <div class="timeline-item" style="text-align: center;">
+                        <div class="timeline-image" style="margin: 0 auto;">
+                            <img src="images/panepistimio.png" alt="Πανεπιστήμιο Δυτικής Μακεδονίας" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="timeline-image-placeholder" style="display: none;">
+                                <i class="fas fa-university"></i>
+                                <span>Εικόνα Πανεπιστημίου</span>
+                            </div>
+                        </div>
+                        <h4 data-lang="about.university">Σπουδάζει Πληροφορικής</h4>
+                        <h5 data-lang="about.university.name">Πανεπιστήμιο Δυτικής Μακεδονίας (Καστοριά)</h5>
+                        <span class="timeline-date">2021 - <span data-lang="about.present">Τώρα</span></span>
+                        <p data-lang="about.university.desc">Σπουδάζω Πληροφορική με εξειδίκευση στον Web Development και τις Δικτυακές Τεχνολογίες</p>
+                    </div>
+
+                    <!-- Πρακτική -->
+                    <div class="timeline-item" style="text-align: center;">
+                        <div class="timeline-image" style="margin: 0 auto;">
+                            <img src="images/cosmote.png" alt="COSMOTE" onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
+                            <div class="timeline-image-placeholder" style="display: none;">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Εικόνα COSMOTE</span>
+                            </div>
+                        </div>
+                        <h4 data-lang="about.internship">Πρώην Πρακτική Technical Services</h4>
+                        <h5 data-lang="about.internship.company">COSMOTE - Ξάνθη, Θράκη</h5>
+                        <span class="timeline-date" data-lang="about.internship.date">1 Ιουλίου 2024 - 3 Οκτωβρίου 2024</span>
+                        <p data-lang="about.internship.desc">Πρακτική άσκηση στον τομέα των τεχνικών υπηρεσιών με εμπειρία σε δικτυακές υποδομές και τεχνική υποστήριξη</p>
+                        <button class="btn btn-small btn-primary" onclick="showInternshipDetails()" style="margin-top: 15px; background: var(--gradient-2); color: var(--primary-bg); border: none; padding: 10px 20px; border-radius: 20px; cursor: pointer; font-weight: 600; transition: all 0.3s ease;">
+                            <i class="fas fa-info-circle"></i> <span data-lang="about.internship.learnMore">Μάθε Περισσότερα</span>
+                        </button>
+                    </div>
+
+                    <!-- Λύκειο -->
+                    <div class="timeline-item" style="text-align: center;">
+                        <h4 data-lang="about.highschool">2ο Τεχνικό Λύκειο Ξάνθης</h4>
+                        <h5 data-lang="about.highschool.spec">Ειδικότητα: Ηλεκτρολόγος Εσωτερικών Εγκαταστάσεων</h5>
+                        <span class="timeline-date">2018 - 2021</span>
+                        <p data-lang="about.highschool.desc">Απόκτηση τεχνικών γνώσεων σε ηλεκτρολογικές εγκαταστάσεις και συστήματα</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Internship Details Modal -->
+    <div id="internshipModal" class="phone-modal">
+        <div class="phone-modal-content" style="max-width: 700px; max-height: 80vh; overflow-y: auto;">
+            <h3><i class="fas fa-briefcase"></i> <span data-lang="about.internship.modal.title">Λεπτομέρειες Πρακτικής - COSMOTE</span></h3>
+            <div style="text-align: left; line-height: 1.6; color: var(--text-secondary);">
+                <p data-lang="about.internship.modal.text">Η μοναδική εργασιακή εμπειρία που είχα ήταν μια τρίμηνη πρακτική άσκηση στη Cosmote μέσω ΤΤΛΠ, όπου εργάστηκα ως τεχνικός πεδίου στο Κέντρο Διανομής Οπτικών Ινών Ξάνθης. Εκεί, είχα την ευκαιρία να εργαστώ, πέρα από το τεχνικό μέρος (νέες συνδέσεις, βλάβες, μεταφορές κ.λπ.), με οπτικές ίνες. Ήμουν, μαζί με έναν συνάδελφο, από τους πρώτους που εγκατέστησαν οπτικές ίνες στη Ξάνθη, εκτελώντας συνδέσεις και επισκευάζοντας βλάβες. Κατά τη διάρκεια της πρακτικής μου στη Cosmote, ολοκληρώσαμε 40 πρώτες συνδέσεις σε όλη τη Ξάνθη. Ακόμη και όταν άρχισαν άλλοι, μας ζητούσαν να τους δείξουμε τα προβλήματα που αντιμετωπίζαμε. Εργάστηκα επίσης με εξοπλισμό Cisco. Η πρακτική μου συνέπεσε με την αλλαγή προγράμματος από WFM σε FSM. Συνολικά, κατά τη διάρκεια αυτής της τρίμηνης περιόδου έμαθα πολλά και ήμουν έτοιμος για μόνιμη θέση στη Cosmote, αλλά η πρακτική μου τελείωσε.</p>
+            </div>
+            <button class="close-btn" onclick="closeInternshipModal()" data-lang="about.internship.modal.close">Κλείσιμο</button>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/Mimisnak" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dimitrios-nakos-a669022a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/dimitris.nakos.357" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dimitris_nakos_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p data-lang="footer.rights">&copy; 2025 Portfolio by Dimitris Nakos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Untitled-2.js"></script>
+    <script src="lang.js"></script>
+    <script>
+        function showInternshipDetails() {
+            document.getElementById('internshipModal').style.display = 'flex';
+        }
+        
+        function closeInternshipModal() {
+            document.getElementById('internshipModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside
+        document.getElementById('internshipModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeInternshipModal();
+            }
+        });
+    </script>
+</body>
+</html>
+
+

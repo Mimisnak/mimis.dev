@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Δημήτριος Νάκος</title>
+    <meta name="description" content="Τα projects και έργα του Δημήτρη Νάκου - Web Developer">
+    <link rel="stylesheet" href="Untitled-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://via.placeholder.com/32x32/3498db/ffffff?text=DN" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><i class="fas fa-code"></i> mimis.dev</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link" data-lang="nav.home">Αρχική</a>
+                <a href="about.html" class="nav-link" data-lang="nav.about">Βιογραφικό</a>
+                <a href="projects.html" class="nav-link active" data-lang="nav.projects">Έργα</a>
+                <a href="contact.html" class="nav-link" data-lang="nav.contact">Επικοινωνία</a>
+            </div>
+            <div class="nav-extras">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i> EN
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <div class="container">
+            <div class="header-content">
+                <h1><i class="fas fa-code"></i> <span data-lang="projects.title">Τα Projects μου</span></h1>
+                <p data-lang="projects.subtitle">Πραγματικά projects από το GitHub μου - δείτε τον κώδικα και τις εφαρμογές που έχω δημιουργήσει</p>
+                <div class="breadcrumb">
+                    <a href="index.html" data-lang="breadcrumb.home">Αρχική</a> <span>/</span> <span data-lang="breadcrumb.projects">Έργα</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio">
+        <div class="container">
+            <div class="portfolio-filters">
+                <button class="filter-btn active" data-filter="all" data-lang="projects.all">Όλα</button>
+                <button class="filter-btn" data-filter="web" data-lang="projects.websites">Websites</button>
+                <button class="filter-btn" data-filter="menu" data-lang="projects.menu">Menu App</button>
+                <button class="filter-btn" data-filter="practice" data-lang="projects.practice">Practice</button>
+            </div>
+
+            <div class="portfolio-grid">
+                <!-- Streeters Menu Project -->
+                <div class="portfolio-item" data-category="web menu">
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-06-25 193702.png" alt="Streeters Menu" onerror="this.src='https://via.placeholder.com/600x400/e74c3c/ffffff?text=Streeters+Menu'">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Streeters Menu</h3>
+                                <div class="portfolio-links">
+                                    <a href="https://mimisnak.github.io/streeters-menu" class="btn btn-small" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> <span data-lang="projects.liveDemo">View Live</span>
+                                    </a>
+                                    <a href="https://github.com/Mimisnak/streeters-menu" class="btn btn-small btn-secondary" target="_blank">
+                                        <i class="fab fa-github"></i> <span data-lang="projects.sourceCode">GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mimis HTML Project -->
+                <div class="portfolio-item" data-category="web practice">
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-06-25 193622.png" alt="Mimis HTML" onerror="this.src='https://via.placeholder.com/600x400/3498db/ffffff?text=Mimis+HTML'">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Mimis HTML</h3>
+                                <div class="portfolio-links">
+                                    <a href="https://mimisnak.github.io/mimishtml" class="btn btn-small" target="_blank">
+                                        <i class="fas fa-external-link-alt"></i> <span data-lang="projects.liveDemo">View Live</span>
+                                    </a>
+                                    <a href="https://github.com/Mimisnak/mimishtml" class="btn btn-small btn-secondary" target="_blank">
+                                        <i class="fab fa-github"></i> <span data-lang="projects.sourceCode">GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Portfolio Website Project -->
+                <div class="portfolio-item" data-category="web practice">
+                    <div class="portfolio-image">
+                        <img src="images/Screenshot 2025-06-25 212506.png" alt="Portfolio Website" onerror="this.src='https://via.placeholder.com/600x400/667eea/ffffff?text=Portfolio+Website'">
+                        <div class="portfolio-overlay">
+                            <div class="portfolio-content">
+                                <h3>Personal Portfolio</h3>
+                                <div class="portfolio-links">
+                                    <a href="index.html" class="btn btn-small">
+                                        <i class="fas fa-external-link-alt"></i> <span data-lang="projects.liveDemo">View Live</span>
+                                    </a>
+                                    <a href="https://github.com/Mimisnak/portfolio" class="btn btn-small btn-secondary" target="_blank">
+                                        <i class="fab fa-github"></i> <span data-lang="projects.sourceCode">GitHub</span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coming Soon Project -->
+                <div class="portfolio-item" data-category="web practice">
+                    <div class="portfolio-image">
+                        <div class="coming-soon-container">
+                            <div class="scanline"></div>
+                            <div class="code-animation">
+                                <div class="code-line">
+                                    <span class="code-keyword">function</span> <span class="code-function">nextProject</span>() {
+                                </div>
+                                <div class="code-line">
+                                    &nbsp;&nbsp;<span class="code-keyword">return</span> <span class="code-string">"Amazing Things"</span>;
+                                </div>
+                                <div class="code-line">
+                                    }
+                                </div>
+                                <div class="code-line">
+                                    <span class="code-comment">// Loading... 🚀</span>
+                                </div>
+                            </div>
+                            <div class="coming-soon-text">
+                                <h3 data-lang="projects.coming">Coming Soon</h3>
+                                <p>🚀 <span data-lang="projects.comingSoon.desc">Νέο project σε ανάπτυξη</span></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- GitHub Link Section -->
+            <div class="github-cta">
+                <h3 data-lang="projects.github.title">Δείτε όλα τα projects μου στο GitHub</h3>
+                <a href="https://github.com/Mimisnak" class="btn btn-primary" target="_blank">
+                    <i class="fab fa-github"></i> <span data-lang="projects.github.visit">Επισκεφθείτε το GitHub μου</span>
+                </a>
+                <p data-lang="projects.github.desc">Ανακαλύψτε περισσότερα projects, code snippets και τη διαδρομή της μάθησής μου</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/Mimisnak" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dimitrios-nakos-a669022a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/dimitris.nakos.357" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dimitris_nakos_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p data-lang="footer.rights">&copy; 2025 Portfolio by Dimitris Nakos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Untitled-2.js"></script>
+    <script src="lang.js"></script>
+</body>
+</html>
+        
+    </script>
+</body>
+</html>

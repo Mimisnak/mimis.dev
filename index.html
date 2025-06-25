@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="el">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Δημήτριος Νάκος - Web Developer</title>
+    <meta name="description" content="Φοιτητής προγραμματισμού με πάθος για την ανάπτυξη web εφαρμογών. Μαθαίνω νέες τεχνολογίες κάθε μέρα.">
+    <link rel="stylesheet" href="Untitled-2.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="icon" href="https://via.placeholder.com/32x32/3498db/ffffff?text=DN" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="index.html"><i class="fas fa-code"></i> mimis.dev</a>
+            </div>
+            <div class="nav-menu">
+                <a href="index.html" class="nav-link active" data-lang="nav.home">Αρχική</a>
+                <a href="about.html" class="nav-link" data-lang="nav.about">Βιογραφικό</a>
+                <a href="projects.html" class="nav-link" data-lang="nav.projects">Έργα</a>
+                <a href="contact.html" class="nav-link" data-lang="nav.contact">Επικοινωνία</a>
+            </div>
+            <div class="nav-extras">
+                <button class="lang-toggle" onclick="toggleLanguage()">
+                    <i class="fas fa-globe"></i> EN
+                </button>
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-badge">
+                <span data-lang="hero.badge">📚 Μαθαίνω & δημιουργώ κάθε μέρα</span>
+            </div>
+            <h1>
+                <div class="terminal-window">
+                    <div class="terminal-header">
+                        <div class="terminal-buttons">
+                            <span class="btn-close"></span>
+                            <span class="btn-minimize"></span>
+                            <span class="btn-maximize"></span>
+                        </div>
+                        <span class="terminal-title">mimis@developer:~$</span>
+                    </div>
+                    <div class="terminal-body">
+                        <div class="terminal-line">
+                            <span class="prompt">$</span> <span class="command">whoami</span>
+                        </div>
+                        <div class="terminal-line output">
+                            <span class="highlight" data-lang="hero.name">Δημήτρης Νάκος</span>
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span> <span class="command">echo "<span data-lang="hero.greeting">Γεια σας!</span>"</span>
+                        </div>
+                        <div class="terminal-line output" data-lang="hero.greeting">
+                            Γεια σας!
+                        </div>
+                        <div class="terminal-line">
+                            <span class="prompt">$</span> <span class="cursor">_</span>
+                        </div>
+                    </div>
+                </div>
+            </h1>
+            <h2 class="hero-subtitle" data-lang="hero.title">
+                <i class="fas fa-code"></i> Web Developer | 
+                <i class="fas fa-network-wired"></i> Τεχνικός Δικτύων | 
+                <i class="fas fa-user-tie"></i> IT Manager
+            </h2>
+            <p class="hero-description" data-lang="hero.description">Φοιτητής προγραμματισμού που αγαπά να δημιουργεί ιστοσελίδες και να μαθαίνει νέες τεχνολογίες. Κάθε μέρα εξερευνώ τον κόσμο του web development και δημιουργώ projects που με ενθουσιάζουν.</p>
+            
+            <div class="hero-stats">
+                <div class="stat-item">
+                    <span class="stat-number">7+</span>
+                    <span class="stat-label" data-lang="stats.projects">Learning Projects</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">4</span>
+                    <span class="stat-label" data-lang="stats.experience">Έτη Μάθησης</span>
+                </div>
+                <div class="stat-item">
+                    <span class="stat-number">∞</span>
+                    <span class="stat-label" data-lang="stats.learning">Διάθεση για Μάθηση</span>
+                </div>
+            </div>
+            
+            <div class="hero-buttons">
+                <a href="projects.html" class="btn btn-primary">
+                    <i class="fas fa-code"></i> <span data-lang="hero.viewWork">Δείτε τα Projects μου</span>
+                </a>
+                <a href="about.html" class="btn btn-outline">
+                    <i class="fas fa-graduation-cap"></i> <span data-lang="hero.about">Σπουδές & Εμπειρία</span>
+                </a>
+                <a href="contact.html" class="btn btn-outline">
+                    <i class="fas fa-envelope"></i> <span data-lang="hero.contact">Στείλτε μήνυμα</span>
+                </a>
+                <a href="https://github.com/Mimisnak" class="btn btn-outline" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+        </div>
+        
+        <div class="hero-image">
+            <div class="image-container">
+                <img src="images/503944595_18402722887111142_2495108061264005510_n.jpg" alt="Δημήτριος Νάκος - Web Developer" onerror="this.src='https://via.placeholder.com/400x400/667eea/ffffff?text=Dimitrios+Nakos'">
+                <div class="floating-icons">
+                    <div class="float-icon python"><i class="fab fa-python"></i></div>
+                    <div class="float-icon java"><i class="fab fa-java"></i></div>
+                    <div class="float-icon html5"><i class="fab fa-html5"></i></div>
+                    <div class="float-icon javascript"><i class="fab fa-js-square"></i></div>
+                    <div class="float-icon php"><i class="fab fa-php"></i></div>
+                    <div class="float-icon database"><i class="fas fa-database"></i></div>
+                    <div class="float-icon cpp"><i class="fas fa-code"></i></div>
+                    <div class="float-icon c-lang"><i class="fas fa-copyright"></i></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="social-links">
+                    <a href="https://github.com/Mimisnak" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/dimitrios-nakos-a669022a9/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.facebook.com/dimitris.nakos.357" target="_blank"><i class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/dimitris_nakos_/" target="_blank"><i class="fab fa-instagram"></i></a>
+                </div>
+                <p data-lang="footer.rights">&copy; 2025 Portfolio by Dimitris Nakos. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="Untitled-2.js"></script>
+    <script src="lang.js"></script>
+</body>
+</html>
