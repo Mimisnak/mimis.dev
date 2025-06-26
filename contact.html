@@ -9,6 +9,8 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="https://via.placeholder.com/32x32/3498db/ffffff?text=DN" type="image/x-icon">
+    <!-- EmailJS Script -->
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
 </head>
 <body>
     <!-- Navigation -->
@@ -176,6 +178,9 @@
     <script src="Untitled-2.js"></script>
     <script src="lang.js"></script>
     <script>
+        // Initialize EmailJS
+        emailjs.init("985ZOcFh4joiTwC7r"); 
+        
         function showPhoneInfo() {
             document.getElementById('phoneModal').style.display = 'flex';
         }
@@ -216,26 +221,51 @@
                 return;
             }
             
-            // Send main email to you
-            const subject = `Μήνυμα από το Portfolio - ${name}`;
-            const body = `Όνομα: ${name}%0D%0AEmail: ${email}%0D%0A%0D%0AΜήνυμα:%0D%0A${message}%0D%0A%0D%0A---%0D%0AΑπό το portfolio website`;
+            // Show loading state
+            const submitBtn = document.querySelector('button[type="submit"]');
+            const originalText = submitBtn.innerHTML;
+            submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Αποστολή...';
+            submitBtn.disabled = true;
             
-            // Send confirmation email to user
-            const confirmSubject = `Επιβεβαίωση Μηνύματος - Δημήτριος Νάκος Portfolio`;
-            const confirmBody = `Αγαπητέ/ή ${name},%0D%0A%0D%0AΣας ευχαριστώ για το μήνυμά σας!%0D%0A%0D%0AΘα έρθω σε επικοινωνία μαζί σας το γρηγορότερο δυνατό.%0D%0A%0D%0AΤο μήνυμά σας:%0D%0A"${message}"%0D%0A%0D%0AΜε εκτίμηση,%0D%0AΔημήτριος Νάκος%0D%0A%0D%0A----%0D%0AΑυτό είναι αυτόματο email επιβεβαίωσης από το portfolio μου.`;
+            // Send email to you using EmailJS
+            const templateParams = {
+                from_name: name,
+                from_email: email,
+                message: message
+            };
             
-            // Open both emails
-            window.open(`mailto:dimitriosnakos.g@gmail.com?subject=${encodeURIComponent(subject)}&body=${body}`, '_blank');
-            
-            setTimeout(() => {
-                window.open(`mailto:${email}?subject=${encodeURIComponent(confirmSubject)}&body=${confirmBody}`, '_blank');
-            }, 1000);
-            
-            alert(langManager.currentLang === 'el' ? 
-                'Θα ανοίξουν 2 emails: ένα προς εμένα με το μήνυμά σας και ένα επιβεβαίωσης προς εσάς!' : 
-                'Two emails will open: one to me with your message and one confirmation to you!');
-            
-            this.reset();
+            emailjs.send('service_2lvctc2', 'template_kyy1gmf', templateParams)
+                .then(function(response) {
+                    console.log('SUCCESS!', response.status, response.text);
+                    
+                    // Send confirmation email to user
+                    const confirmParams = {
+                        to_name: name,
+                        to_email: email,
+                        original_message: message
+                    };
+                    
+                    return emailjs.send('service_2lvctc2', 'template_fwpuj02', confirmParams);
+                })
+                .then(function(response) {
+                    console.log('Confirmation sent!', response.status, response.text);
+                    alert(langManager.currentLang === 'el' ? 
+                        'Το μήνυμά σας στάλθηκε επιτυχώς! Θα λάβετε email επιβεβαίωσης στο ' + email : 
+                        'Your message was sent successfully! You will receive a confirmation email at ' + email);
+                    
+                    document.getElementById('contactForm').reset();
+                })
+                .catch(function(error) {
+                    console.log('FAILED...', error);
+                    alert(langManager.currentLang === 'el' ? 
+                        'Υπήρξε πρόβλημα με την αποστολή. Παρακαλώ δοκιμάστε ξανά ή στείλτε email απευθείας στο dimitriosnakos.g@gmail.com' : 
+                        'There was a problem sending the message. Please try again or send email directly to dimitriosnakos.g@gmail.com');
+                })
+                .finally(function() {
+                    // Restore button
+                    submitBtn.innerHTML = originalText;
+                    submitBtn.disabled = false;
+                });
         });
         
         document.querySelectorAll('input, textarea').forEach(element => {
@@ -245,6 +275,25 @@
                 this.style.background = 'rgba(255, 255, 255, 0.12)';
             });
             
+            element.addEventListener('blur', function() {
+                this.style.borderColor = 'rgba(0, 255, 136, 0.3)';
+                this.style.boxShadow = 'none';
+                this.style.background = 'rgba(255, 255, 255, 0.08)';
+            });
+        });
+
+        document.querySelector('.btn-primary').addEventListener('mouseenter', function() {
+            this.style.transform = 'translateY(-3px) scale(1.05)';
+            this.style.boxShadow = '0 15px 40px rgba(0, 255, 136, 0.4)';
+        });
+
+        document.querySelector('.btn-primary').addEventListener('mouseleave', function() {
+            this.style.transform = 'translateY(0) scale(1)';
+            this.style.boxShadow = '0 8px 25px rgba(0, 255, 136, 0.3)';
+        });
+    </script>
+</body>
+</html>
             element.addEventListener('blur', function() {
                 this.style.borderColor = 'rgba(0, 255, 136, 0.3)';
                 this.style.boxShadow = 'none';
