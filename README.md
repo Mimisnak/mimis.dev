@@ -7,13 +7,17 @@
 ```
 portfolio mimis/
 ├── index.html          # Κύρια σελίδα
-├── Untitled-2.css      # Στυλ CSS
-├── Untitled-2.js       # JavaScript λειτουργίες
+├── style.css           # Στυλ CSS
+├── script.js           # JavaScript λειτουργίες
+├── lang.js             # Σύστημα γλωσσών
+├── about.html          # Σελίδα βιογραφικού
+├── projects.html       # Σελίδα έργων
+├── contact.html        # Σελίδα επικοινωνίας
 ├── images/             # Φάκελος εικόνων
 │   ├── 503944595_18402722887111142_2495108061264005510_n.jpg  # Profile φωτογραφία
-│   ├── streeters-menu.jpg
-│   ├── mimis-html.jpg
-│   └── portfolio-website.jpg
+│   ├── Screenshot 2025-06-25 193702.png    # Streeters Menu
+│   ├── Screenshot 2025-06-25 193622.png    # Mimis HTML
+│   └── Screenshot 2025-06-25 212506.png    # Portfolio Website
 └── README.md           # Αυτό το αρχείο
 ```
 

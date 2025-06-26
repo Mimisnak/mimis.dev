@@ -20,7 +20,7 @@ class LanguageManager {
                 'hero.downloadCV': 'Κατέβασε CV',
                 
                 // Stats
-                'stats.experience': 'Εμπειρία',
+                'stats.experience': 'Έτη Εμπειρίας',
                 'stats.projects': 'Έργα',
                 'stats.clients': 'Πελάτες',
                 
@@ -57,6 +57,7 @@ class LanguageManager {
                 'contact.form.name': 'Το όνομά σας',
                 'contact.form.email': 'Email',
                 'contact.form.message': 'Το μήνυμά σας',
+                'contact.form.terms': 'Αποδέχομαι τους όρους χρήσης και τη μεταχείριση των προσωπικών μου δεδομένων για την επικοινωνία',
                 'contact.form.send': 'Αποστολή Μηνύματος',
                 'contact.phone.modal.title': 'Τηλεφωνική Επικοινωνία',
                 'contact.phone.modal.text': 'Για να λάβετε το τηλέφωνό μου, παρακαλώ επικοινωνήστε μαζί μου πρώτα μέσω email ή των social media για να παρέχω αυτήν την πληροφορία.',
@@ -122,7 +123,7 @@ class LanguageManager {
                 'hero.downloadCV': 'Download CV',
                 
                 // Stats
-                'stats.experience': 'Experience',
+                'stats.experience': 'Years Experience',
                 'stats.projects': 'Projects',
                 'stats.clients': 'Clients',
                 
@@ -159,6 +160,7 @@ class LanguageManager {
                 'contact.form.name': 'Your Name',
                 'contact.form.email': 'Email',
                 'contact.form.message': 'Your Message',
+                'contact.form.terms': 'I accept the terms of use and the handling of my personal data for communication',
                 'contact.form.send': 'Send Message',
                 'contact.phone.modal.title': 'Phone Contact',
                 'contact.phone.modal.text': 'To get my phone number, please contact me first via email or social media to provide this information.',
