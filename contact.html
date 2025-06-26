@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Επικοινωνία - Δημήτριος Νάκος</title>
     <meta name="description" content="Επικοινωνήστε με τον Δημήτρη Νάκο">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="Untitled-2.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link rel="icon" href="https://via.placeholder.com/32x32/3498db/ffffff?text=DN" type="image/x-icon">
@@ -121,27 +121,27 @@
                     </h3>
                     
                     <div class="form-group" style="margin-bottom: 25px;">
-                        <input type="text" id="userName" name="name" data-lang="contact.form.name" placeholder="Το όνομά σας" required style="width: 100%; padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px);">
+                        <input type="text" id="userName" name="name" data-lang="contact.form.name" placeholder="Το όνομά σας" required style="width: calc(100% - 50px); padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px); box-sizing: border-box;">
                     </div>
                     
                     <div class="form-group" style="margin-bottom: 25px;">
-                        <input type="email" id="userEmail" name="email" data-lang="contact.form.email" placeholder="Email" required style="width: 100%; padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px);">
+                        <input type="email" id="userEmail" name="email" data-lang="contact.form.email" placeholder="Email" required style="width: calc(100% - 50px); padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px); box-sizing: border-box;">
                     </div>
                     
                     <div class="form-group" style="margin-bottom: 25px;">
-                        <textarea id="userMessage" name="message" data-lang="contact.form.message" placeholder="Το μήνυμά σας" required style="width: 100%; min-height: 140px; padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px); resize: vertical;"></textarea>
+                        <textarea id="userMessage" name="message" data-lang="contact.form.message" placeholder="Το μήνυμά σας" required style="width: calc(100% - 50px); min-height: 140px; padding: 18px 25px; background: rgba(255, 255, 255, 0.08); border: 2px solid rgba(0, 255, 136, 0.3); border-radius: 15px; color: var(--text-primary); font-family: 'Poppins', sans-serif; font-size: 1rem; font-weight: 500; transition: all 0.3s ease; backdrop-filter: blur(10px); resize: vertical; box-sizing: border-box;"></textarea>
                     </div>
                     
                     <!-- Terms Acceptance -->
                     <div class="form-group" style="margin-bottom: 30px;">
                         <label style="display: flex; align-items: center; gap: 12px; cursor: pointer; color: var(--text-secondary); font-size: 0.95rem; line-height: 1.4;">
-                            <input type="checkbox" id="termsAccept" required style="width: 18px; height: 18px; accent-color: var(--accent-color); cursor: pointer;">
+                            <input type="checkbox" id="termsAccept" name="terms" required style="width: 18px; height: 18px; accent-color: var(--accent-color); cursor: pointer;">
                             <span data-lang="contact.form.terms">Αποδέχομαι τους όρους χρήσης και τη μεταχείριση των προσωπικών μου δεδομένων για την επικοινωνία</span>
                         </label>
                     </div>
                     
                     <div style="text-align: center;">
-                        <button type="submit" class="btn btn-primary" style="background: var(--gradient-2); color: var(--primary-bg); border: none; padding: 18px 40px; border-radius: 25px; font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0, 255, 136, 0.3); text-transform: uppercase; letter-spacing: 1px;">
+                        <button type="button" onclick="submitFormDirectly()" class="btn btn-primary" style="background: var(--gradient-2); color: var(--primary-bg); border: none; padding: 18px 40px; border-radius: 25px; font-family: 'Poppins', sans-serif; font-size: 1.1rem; font-weight: 600; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 8px 25px rgba(0, 255, 136, 0.3); text-transform: uppercase; letter-spacing: 1px;">
                             <i class="fas fa-paper-plane" style="margin-right: 10px;"></i>
                             <span data-lang="contact.form.send">Αποστολή Μηνύματος</span>
                         </button>
@@ -175,11 +175,13 @@
         </div>
     </div>
 
-    <script src="script.js"></script>
+    <script src="Untitled-2.js"></script>
     <script src="lang.js"></script>
     <script>
-        // Initialize EmailJS
+        // Initialize EmailJS with debug
+        console.log('Initializing EmailJS...');
         emailjs.init("985ZOcFh4joiTwC7r"); 
+        console.log('EmailJS initialized successfully');
         
         function showPhoneInfo() {
             document.getElementById('phoneModal').style.display = 'flex';
@@ -189,83 +191,173 @@
             document.getElementById('phoneModal').style.display = 'none';
         }
         
-        document.getElementById('phoneModal').addEventListener('click', function(e) {
-            if (e.target === this) {
-                closePhoneModal();
-            }
-        });
-
-        document.getElementById('contactForm').addEventListener('submit', function(e) {
-            e.preventDefault();
+        function testFormElements() {
+            console.log('=== FORM TEST ===');
+            const name = document.getElementById('userName');
+            const email = document.getElementById('userEmail');
+            const message = document.getElementById('userMessage');
+            const terms = document.getElementById('termsAccept');
             
-            const name = document.getElementById('userName').value;
-            const email = document.getElementById('userEmail').value;
-            const message = document.getElementById('userMessage').value;
-            const termsAccepted = document.getElementById('termsAccept').checked;
+            console.log('Name element:', name, 'Value:', name ? name.value : 'NOT FOUND');
+            console.log('Email element:', email, 'Value:', email ? email.value : 'NOT FOUND');
+            console.log('Message element:', message, 'Value:', message ? message.value : 'NOT FOUND');
+            console.log('Terms element:', terms, 'Checked:', terms ? terms.checked : 'NOT FOUND');
+            
+            alert('Check console for form element details');
+        }
+        
+        function submitFormDirectly() {
+            console.log('=== DIRECT SUBMIT ===');
+            
+            const nameElement = document.getElementById('userName');
+            const emailElement = document.getElementById('userEmail');
+            const messageElement = document.getElementById('userMessage');
+            const termsElement = document.getElementById('termsAccept');
+            
+            const name = nameElement ? nameElement.value.trim() : '';
+            const email = emailElement ? emailElement.value.trim() : '';
+            const message = messageElement ? messageElement.value.trim() : '';
+            const termsAccepted = termsElement ? termsElement.checked : false;
+            
+            console.log('DIRECT submit - Form data:', { name, email, message, termsAccepted });
             
             if (!name || !email || !message) {
-                langManager.alert('alert.formRequired');
+                alert('Παρακαλώ συμπληρώστε όλα τα πεδία!');
                 return;
             }
             
             if (!termsAccepted) {
-                alert(langManager.currentLang === 'el' ? 
-                    'Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε!' : 
-                    'Please accept the terms to continue!');
+                alert('Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε!');
                 return;
             }
             
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
-                langManager.alert('alert.emailInvalid');
+                alert('Παρακαλώ εισάγετε ένα έγκυρο email!');
                 return;
             }
             
+            console.log('All validations passed, sending emails...');
+            
             // Show loading state
-            const submitBtn = document.querySelector('button[type="submit"]');
+            const submitBtn = document.querySelector('.btn-primary');
             const originalText = submitBtn.innerHTML;
             submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Αποστολή...';
             submitBtn.disabled = true;
             
-            // Send email to you using EmailJS
+            // Template parameters that match your EmailJS template
             const templateParams = {
-                from_name: name,
-                from_email: email,
-                message: message
+                to_email: email,  // This will show the sender's email in the "To Email" field
+                email: email,     // This will be used for Reply To
+                name: name,       // This will show the sender's name  
+                message: message  // This will show the message
             };
+            
+            console.log('Sending with correct template params:', templateParams);
             
             emailjs.send('service_2lvctc2', 'template_kyy1gmf', templateParams)
                 .then(function(response) {
-                    console.log('SUCCESS!', response.status, response.text);
-                    
-                    // Send confirmation email to user
-                    const confirmParams = {
-                        to_name: name,
-                        to_email: email,
-                        original_message: message
-                    };
-                    
-                    return emailjs.send('service_2lvctc2', 'template_fwpuj02', confirmParams);
-                })
-                .then(function(response) {
-                    console.log('Confirmation sent!', response.status, response.text);
-                    alert(langManager.currentLang === 'el' ? 
-                        'Το μήνυμά σας στάλθηκε επιτυχώς! Θα λάβετε email επιβεβαίωσης στο ' + email : 
-                        'Your message was sent successfully! You will receive a confirmation email at ' + email);
-                    
+                    console.log('Email sent successfully!', response);
+                    alert('Το μήνυμά σας στάλθηκε επιτυχώς! 🎉\n\nΘα λάβετε απάντηση σύντομα στο: ' + email);
                     document.getElementById('contactForm').reset();
                 })
                 .catch(function(error) {
-                    console.log('FAILED...', error);
-                    alert(langManager.currentLang === 'el' ? 
-                        'Υπήρξε πρόβλημα με την αποστολή. Παρακαλώ δοκιμάστε ξανά ή στείλτε email απευθείας στο dimitriosnakos.g@gmail.com' : 
-                        'There was a problem sending the message. Please try again or send email directly to dimitriosnakos.g@gmail.com');
+                    console.error('EmailJS Error:', error);
+                    alert('Σφάλμα αποστολής: ' + (error.text || 'Unknown error'));
                 })
                 .finally(function() {
                     // Restore button
                     submitBtn.innerHTML = originalText;
                     submitBtn.disabled = false;
                 });
+        }
+        
+        document.getElementById('phoneModal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closePhoneModal();
+            }
+        });
+        
+        document.getElementById('contactForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            e.stopPropagation();
+            
+            const nameElement = document.getElementById('userName');
+            const emailElement = document.getElementById('userEmail');
+            const messageElement = document.getElementById('userMessage');
+            const termsElement = document.getElementById('termsAccept');
+            
+            const name = nameElement ? nameElement.value.trim() : '';
+            const email = emailElement ? emailElement.value.trim() : '';
+            const message = messageElement ? messageElement.value.trim() : '';
+            const termsAccepted = termsElement ? termsElement.checked : false;
+            
+            console.log('Form submission - Form data:', { name, email, message, termsAccepted });
+            
+            if (!name || !email || !message) {
+                console.log('Validation failed: Empty fields');
+                alert('Παρακαλώ συμπληρώστε όλα τα πεδία!');
+                
+                if (!name) nameElement.style.border = '2px solid red';
+                if (!email) emailElement.style.border = '2px solid red';
+                if (!message) messageElement.style.border = '2px solid red';
+                
+                return;
+            }
+            
+            if (!termsAccepted) {
+                console.log('Validation failed: Terms not accepted');
+                alert('Παρακαλώ αποδεχτείτε τους όρους για να συνεχίσετε!');
+                return;
+            }
+            
+            const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+            if (!emailRegex.test(email)) {
+                console.log('Validation failed: Invalid email');
+                alert('Παρακαλώ εισάγετε ένα έγκυρο email!');
+                emailElement.style.border = '2px solid red';
+                return;
+            }
+            
+            console.log('All validations passed, proceeding with email sending...');
+            
+            // Reset borders
+            nameElement.style.border = '2px solid rgba(0, 255, 136, 0.3)';
+            emailElement.style.border = '2px solid rgba(0, 255, 136, 0.3)';
+            messageElement.style.border = '2px solid rgba(0, 255, 136, 0.3)';
+            
+            // Show loading
+            const submitBtn = document.querySelector('button[type="submit"]');
+            if (submitBtn) {
+                const originalText = submitBtn.innerHTML;
+                submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Αποστολή...';
+                submitBtn.disabled = true;
+                
+                // Use same parameters as working function
+                const templateParams = {
+                    to_email: email,
+                    email: email,
+                    name: name,
+                    message: message
+                };
+                
+                console.log('Template params:', templateParams);
+                
+                emailjs.send('service_2lvctc2', 'template_kyy1gmf', templateParams)
+                    .then(function(response) {
+                        console.log('Email sent successfully!', response.status, response.text);
+                        alert('Το μήνυμά σας στάλθηκε επιτυχώς! 🎉');
+                        document.getElementById('contactForm').reset();
+                    })
+                    .catch(function(error) {
+                        console.error('EmailJS Error:', error);
+                        alert('Υπήρξε πρόβλημα με την αποστολή: ' + (error.text || 'Unknown error'));
+                    })
+                    .finally(function() {
+                        submitBtn.innerHTML = originalText;
+                        submitBtn.disabled = false;
+                    });
+            }
         });
         
         document.querySelectorAll('input, textarea').forEach(element => {
@@ -281,12 +373,12 @@
                 this.style.background = 'rgba(255, 255, 255, 0.08)';
             });
         });
-
+        
         document.querySelector('.btn-primary').addEventListener('mouseenter', function() {
             this.style.transform = 'translateY(-3px) scale(1.05)';
             this.style.boxShadow = '0 15px 40px rgba(0, 255, 136, 0.4)';
         });
-
+        
         document.querySelector('.btn-primary').addEventListener('mouseleave', function() {
             this.style.transform = 'translateY(0) scale(1)';
             this.style.boxShadow = '0 8px 25px rgba(0, 255, 136, 0.3)';
@@ -294,20 +386,20 @@
     </script>
 </body>
 </html>
-            element.addEventListener('blur', function() {
-                this.style.borderColor = 'rgba(0, 255, 136, 0.3)';
-                this.style.boxShadow = 'none';
-                this.style.background = 'rgba(255, 255, 255, 0.08)';
-            });
-        });
-
-        document.querySelector('.btn-primary').addEventListener('mouseenter', function() {
-            this.style.transform = 'translateY(-3px) scale(1.05)';
-            this.style.boxShadow = '0 15px 40px rgba(0, 255, 136, 0.4)';
-        });
-
-        document.querySelector('.btn-primary').addEventListener('mouseleave', function() {
+        });s.style.transform = 'translateY(-3px) scale(1.05)';
+    </script> this.style.boxShadow = '0 15px 40px rgba(0, 255, 136, 0.4)';
+</body>});
+</html>
             this.style.transform = 'translateY(0) scale(1)';
+            this.style.boxShadow = '0 8px 25px rgba(0, 255, 136, 0.3)';
+        });
+    </script>
+</body>
+</html>
+        });
+    </script>
+</body>
+</html>
             this.style.boxShadow = '0 8px 25px rgba(0, 255, 136, 0.3)';
         });
     </script>
