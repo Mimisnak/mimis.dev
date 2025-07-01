@@ -27,9 +27,9 @@ A modern, responsive portfolio website showcasing my skills as a Web Developer a
 3. **Projects** - Portfolio showcase
 4. **Contact** - Contact form and social links
 
-## 🌐 Live Demo
+## 🌐 Live portfolio 
 
-Visit: [dimitrios-nakos-portfolio.vercel.app](https://your-portfolio-url.com)
+Visit: https://mimis.dev/
 
 ## 📧 Contact
 
