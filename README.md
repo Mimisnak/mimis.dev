@@ -1,8 +1,8 @@
-# 🌟 Dimitrios Nakos - Personal Portfolio
+ Dimitrios Nakos - Personal Portfolio
 
 A modern, responsive portfolio website showcasing my skills as a Web Developer and Computer Science Student.
 
-## 🚀 Features
+ Features
 
 - **Responsive Design** - Works perfectly on all devices
 - **Multilingual Support** - Greek & English
@@ -11,7 +11,7 @@ A modern, responsive portfolio website showcasing my skills as a Web Developer a
 - **Interactive Elements** - Smooth animations and transitions
 - **SEO Optimized** - Meta tags and semantic HTML
 
-## 🛠️ Technologies Used
+ Technologies Used
 
 - **HTML5** - Semantic markup
 - **CSS3** - Modern styling with Flexbox/Grid
@@ -20,40 +20,40 @@ A modern, responsive portfolio website showcasing my skills as a Web Developer a
 - **Font Awesome** - Icons
 - **Google Fonts** - Typography (Poppins)
 
-## 📱 Sections
+ Sections
 
 1. **Home** - Hero section with introduction
 2. **About** - Education and experience timeline
 3. **Projects** - Portfolio showcase
 4. **Contact** - Contact form and social links
 
-## 🌐 Live portfolio 
+ Live portfolio 
 
 Visit: https://mimis.dev/
 
-## 📧 Contact
+ Contact
 
 - **Email:** dimitriosnakos.g@gmail.com
 - **LinkedIn:** [Dimitrios Nakos](https://www.linkedin.com/in/dimitrios-nakos-a669022a9/)
 - **GitHub:** [Mimisnak](https://github.com/Mimisnak)
 
-## 📄 License
+ License
 
 © 2025 Dimitrios Nakos. All rights reserved.
 
 ---
 
-⭐ **Star this repo if you like it!**
+**Star this repo if you like it!**
 - **Μορφή**: JPG ή PNG
 
-## Οδηγίες Εγκατάστασης
+ Οδηγίες Εγκατάστασης
 
 1. **Τοποθετήστε τη φωτογραφία** `503944595_18402722887111142_2495108061264005510_n.jpg` στον φάκελο `images/`
 2. **Προσθέστε τις υπόλοιπες εικόνες** για τα projects
 3. **Ανοίξτε το index.html** με Live Server ή σε browser
 4. **Προσαρμόστε το περιεχόμενο** στις δικές σας ανάγκες
 
-## Χαρακτηριστικά
+ Χαρακτηριστικά
 
 - ✅ Responsive design για όλες τις συσκευές
 - ✅ Dark theme με neon accents
@@ -65,7 +65,7 @@ Visit: https://mimis.dev/
 - ✅ Fast loading με βελτιστοποιημένο κώδικα
 - ✅ Profile φωτογραφία ενημερωμένη
 
-## Fallback System
+Fallback System
 
 Το website περιλαμβάνει αυτόματο fallback σύστημα:
 - Αν δεν βρεθεί μια εικόνα, θα εμφανίσει placeholder
