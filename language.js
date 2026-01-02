@@ -69,7 +69,7 @@ const translations = {
         'coming-soon': 'Έρχεται Σύντομα',
         
         // Footer
-        'footer-text': '© 2025 Portfolio by Dimitris Nakos. All rights reserved.',
+        'footer-text': '© 2026 Portfolio by Dimitris Nakos. All rights reserved.',
         
         // Breadcrumbs
         'breadcrumb-home': 'Αρχική',
@@ -147,7 +147,7 @@ const translations = {
         'coming-soon': 'Coming Soon',
         
         // Footer
-        'footer-text': '© 2025 Portfolio by Dimitris Nakos. All rights reserved.',
+        'footer-text': '© 2026 Portfolio by Dimitris Nakos. All rights reserved.',
         
         // Breadcrumbs
         'breadcrumb-home': 'Home',

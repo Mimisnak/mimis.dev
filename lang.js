@@ -64,7 +64,7 @@ class LanguageManager {
                 'contact.phone.modal.ok': 'Κατανοητό',
                 
                 // Footer
-                'footer.rights': '© 2025 Portfolio by Dimitris Nakos. All rights reserved.',
+                'footer.rights': '© 2026 Portfolio by Dimitris Nakos. All rights reserved.',
                 
                 // Breadcrumb
                 'breadcrumb.home': 'Αρχική',
@@ -167,7 +167,7 @@ class LanguageManager {
                 'contact.phone.modal.ok': 'Understood',
                 
                 // Footer
-                'footer.rights': '© 2025 Portfolio by Dimitris Nakos. All rights reserved.',
+                'footer.rights': '© 2026 Portfolio by Dimitris Nakos. All rights reserved.',
                 
                 // Breadcrumb
                 'breadcrumb.home': 'Home',

@@ -39,5 +39,5 @@ Visit: https://mimis.dev/
 
  License
 
-© 2025 Dimitrios Nakos. All rights reserved.
+© 2026 Dimitrios Nakos. All rights reserved.
 
