@@ -13,7 +13,7 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Γεια σας, είμαι ο',
                 'hero.name': 'Δημήτριος Νάκος',
-                'hero.title': 'Web Developer & Φοιτητής Πληροφορικής',
+                'hero.title': 'Web Developer & Πτυχιούχος Πληροφορικής',
                 'hero.description': 'Δημιουργώ σύγχρονες και λειτουργικές ιστοσελίδες με καθαρό κώδικα και όμορφο design.',
                 'hero.viewWork': 'Δες τη Δουλειά μου',
                 'hero.contact': 'Επικοινωνία',
@@ -28,9 +28,10 @@ class LanguageManager {
                 'about.title': 'Σπουδές & Εμπειρία',
                 'about.subtitle': 'Η εκπαιδευτική μου πορεία και οι δεξιότητες που έχω αναπτύξει',
                 'about.education': 'Εκπαίδευση & Εμπειρία',
-                'about.university': 'Σπουδάζει Πληροφορικής',
+                'about.university': 'Πτυχίο Πληροφορικής',
                 'about.university.name': 'Πανεπιστήμιο Δυτικής Μακεδονίας (Καστοριά)',
-                'about.university.desc': 'Σπουδάζω Πληροφορική με εξειδίκευση στον Web Development και τις Δικτυακές Τεχνολογίες',
+                'about.university.date': 'Οκτώβριος 2021 - Ιούνιος 2026',
+                'about.university.desc': 'Ολοκλήρωσα τις σπουδές μου στην Πληροφορική με εξειδίκευση στον Web Development και τις Δικτυακές Τεχνολογίες',
                 'about.internship': 'Πρακτική Technical Services',
                 'about.internship.company': 'COSMOTE',
                 'about.internship.desc': 'Πρακτική άσκηση στον τομέα των τεχνικών υπηρεσιών με εμπειρία σε δικτυακές υποδομές και τεχνική υποστήριξη',
@@ -74,7 +75,7 @@ class LanguageManager {
                 
                 // Terminal
                 'terminal.user': 'χρήστης',
-                'terminal.role': 'Web Developer & Φοιτητής Πληροφορικής',
+                'terminal.role': 'Web Developer & Πτυχιούχος Πληροφορικής',
                 'terminal.skills': 'HTML, CSS, JavaScript, PHP, MySQL, Python',
                 'terminal.learning': 'Μαθαίνω νέες τεχνολογίες κάθε μέρα...',
                 'terminal.passion': 'Πάθος για καθαρό κώδικα και όμορφο design!',
@@ -99,12 +100,18 @@ class LanguageManager {
 
                 // Projects additions
                 'projects.websites': 'Websites',
+                'projects.mobile': 'Mobile Apps',
                 'projects.menu': 'Menu App',
                 'projects.practice': 'Practice',
                 'projects.comingSoon.desc': 'Νέο project σε ανάπτυξη',
                 'projects.github.title': 'Δείτε όλα τα projects μου στο GitHub',
                 'projects.github.visit': 'Επισκεφθείτε το GitHub μου',
-                'projects.github.desc': 'Ανακαλύψτε περισσότερα projects, code snippets και τη διαδρομή της μάθησής μου'
+                'projects.github.desc': 'Ανακαλύψτε περισσότερα projects, code snippets και τη διαδρομή της μάθησής μου',
+                'projects.thesis': 'Πτυχιακή Εργασία',
+                'projects.inDevelopment': 'Σε Ανάπτυξη',
+                'projects.desktopApp': 'Desktop Εφαρμογή',
+                'projects.flix.desc': 'Mobile εφαρμογή διαχείρισης παραδόσεων για μαγαζιά και οδηγούς, με ρόλους Owner / Shop / Driver. React Native (Expo), TypeScript & Supabase.',
+                'projects.ilovexanthi.desc': 'Ψηφιακός τουριστικός οδηγός για τον νομό Ξάνθης με διαδραστικό χάρτη αξιοθέατων, μνημείων και φυσικών μονοπατιών, καθώς και προβολή τοπικών επιχειρήσεων. Flutter & Supabase.'
             },
             en: {
                 // Navigation
@@ -116,7 +123,7 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Hello, I am',
                 'hero.name': 'Dimitrios Nakos',
-                'hero.title': 'Web Developer & Computer Science Student',
+                'hero.title': 'Web Developer & Computer Science Graduate',
                 'hero.description': 'I create modern and functional websites with clean code and beautiful design.',
                 'hero.viewWork': 'View My Work',
                 'hero.contact': 'Contact Me',
@@ -131,9 +138,10 @@ class LanguageManager {
                 'about.title': 'Education & Experience',
                 'about.subtitle': 'My educational journey and the skills I have developed',
                 'about.education': 'Education & Experience',
-                'about.university': 'Computer Science Student',
-                'about.university.name': 'University of Western Macedonia (Kastoria)',
-                'about.university.desc': 'Studying Computer Science with specialization in Web Development and Network Technologies',
+                'about.university': 'BSc in Computer Science',
+                'about.university.name': 'University of Western Macedonia',
+                'about.university.date': 'October 2021 - June 2026',
+                'about.university.desc': 'Completed my studies in Computer Science with specialization in Web Development and Network Technologies',
                 'about.internship': 'Technical Services Intern',
                 'about.internship.company': 'COSMOTE',
                 'about.internship.desc': 'Internship in technical services with experience in network infrastructure and technical support',
@@ -177,7 +185,7 @@ class LanguageManager {
                 
                 // Terminal
                 'terminal.user': 'user',
-                'terminal.role': 'Web Developer & Computer Science Student',
+                'terminal.role': 'Web Developer & Computer Science Graduate',
                 'terminal.skills': 'HTML, CSS, JavaScript, PHP, MySQL, Python',
                 'terminal.learning': 'Learning new technologies every day...',
                 'terminal.passion': 'Passion for clean code and beautiful design!',
@@ -202,12 +210,18 @@ class LanguageManager {
 
                 // Projects additions
                 'projects.websites': 'Websites',
+                'projects.mobile': 'Mobile Apps',
                 'projects.menu': 'Menu App',
                 'projects.practice': 'Practice',
                 'projects.comingSoon.desc': 'New project in development',
                 'projects.github.title': 'See all my projects on GitHub',
                 'projects.github.visit': 'Visit my GitHub',
-                'projects.github.desc': 'Discover more projects, code snippets and my learning journey'
+                'projects.github.desc': 'Discover more projects, code snippets and my learning journey',
+                'projects.thesis': 'Thesis Project',
+                'projects.inDevelopment': 'In Development',
+                'projects.desktopApp': 'Desktop App',
+                'projects.flix.desc': 'Delivery management mobile app for shops and drivers, with Owner / Shop / Driver roles. React Native (Expo), TypeScript & Supabase.',
+                'projects.ilovexanthi.desc': 'Digital tourism guide for the Xanthi region with an interactive map of attractions, monuments and nature trails, plus local business listings. Flutter & Supabase.'
             }
         };
         this.init();
@@ -253,13 +267,13 @@ class LanguageManager {
     updateDocumentTitle() {
         const titleMap = {
             'el': {
-                'index.html': 'Δημήτριος Νάκος - Web Developer & Φοιτητής Πληροφορικής',
+                'index.html': 'Δημήτριος Νάκος - Web Developer & Πτυχιούχος Πληροφορικής',
                 'about.html': 'Σπουδές & Εμπειρία - Δημήτριος Νάκος',
                 'projects.html': 'Έργα - Δημήτριος Νάκος',
                 'contact.html': 'Επικοινωνία - Δημήτριος Νάκος'
             },
             'en': {
-                'index.html': 'Dimitrios Nakos - Web Developer & Computer Science Student',
+                'index.html': 'Dimitrios Nakos - Web Developer & Computer Science Graduate',
                 'about.html': 'Education & Experience - Dimitrios Nakos',
                 'projects.html': 'Projects - Dimitrios Nakos',
                 'contact.html': 'Contact - Dimitrios Nakos'
