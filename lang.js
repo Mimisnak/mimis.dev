@@ -13,7 +13,6 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Γεια σας, είμαι ο',
                 'hero.name': 'Δημήτριος Νάκος',
-                'hero.title': 'Web Developer & Πτυχιούχος Πληροφορικής',
                 'hero.description': 'Δημιουργώ σύγχρονες και λειτουργικές ιστοσελίδες με καθαρό κώδικα και όμορφο design.',
                 'hero.viewWork': 'Δες τη Δουλειά μου',
                 'hero.contact': 'Επικοινωνία',
@@ -89,6 +88,9 @@ class LanguageManager {
                 'hero.badge': '📚 Μαθαίνω & δημιουργώ κάθε μέρα',
                 'hero.about': 'Σπουδές & Εμπειρία',
                 'hero.job': 'Web Developer & Πτυχιούχος Πληροφορικής',
+                'hero.role1': 'Web Developer',
+                'hero.role2': 'Τεχνικός Δικτύων',
+                'hero.role3': 'IT Manager',
                 'stats.learning': 'Διάθεση για Μάθηση',
                 
                 // About additions
@@ -124,7 +126,6 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Hello, I am',
                 'hero.name': 'Dimitrios Nakos',
-                'hero.title': 'Web Developer & Computer Science Graduate',
                 'hero.description': 'I create modern and functional websites with clean code and beautiful design.',
                 'hero.viewWork': 'View My Work',
                 'hero.contact': 'Contact Me',
@@ -200,6 +201,9 @@ class LanguageManager {
                 'hero.badge': '📚 Learning & creating every day',
                 'hero.about': 'Education & Experience',
                 'hero.job': 'Web Developer & Computer Science Graduate',
+                'hero.role1': 'Web Developer',
+                'hero.role2': 'Network Technician',
+                'hero.role3': 'IT Manager',
                 'stats.learning': 'Passion for Learning',
                 
                 // About additions
