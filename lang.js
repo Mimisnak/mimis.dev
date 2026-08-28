@@ -88,6 +88,7 @@ class LanguageManager {
                 // Hero additions
                 'hero.badge': '📚 Μαθαίνω & δημιουργώ κάθε μέρα',
                 'hero.about': 'Σπουδές & Εμπειρία',
+                'hero.job': 'Web Developer & Πτυχιούχος Πληροφορικής',
                 'stats.learning': 'Διάθεση για Μάθηση',
                 
                 // About additions
@@ -198,6 +199,7 @@ class LanguageManager {
                 // Hero additions
                 'hero.badge': '📚 Learning & creating every day',
                 'hero.about': 'Education & Experience',
+                'hero.job': 'Web Developer & Computer Science Graduate',
                 'stats.learning': 'Passion for Learning',
                 
                 // About additions
