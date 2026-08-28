@@ -13,7 +13,7 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Γεια σας, είμαι ο',
                 'hero.name': 'Δημήτριος Νάκος',
-                'hero.description': 'Δημιουργώ σύγχρονες και λειτουργικές ιστοσελίδες με καθαρό κώδικα και όμορφο design.',
+                'hero.description': 'Δημιουργώ σύγχρονες ιστοσελίδες, mobile εφαρμογές, B2B συστήματα και έξυπνες λύσεις Smart Home & IoT με καθαρό κώδικα και όμορφο design.',
                 'hero.viewWork': 'Δες τη Δουλειά μου',
                 'hero.contact': 'Επικοινωνία',
                 'hero.downloadCV': 'Κατέβασε CV',
@@ -85,9 +85,10 @@ class LanguageManager {
                 'alert.emailSent': 'Το email client σας θα ανοίξει για αποστολή. Αν δεν ανοίξει, στείλτε email απευθείας στο: dimitriosnakos.g@gmail.com',
                 
                 // Hero additions
-                'hero.badge': '📚 Μαθαίνω & δημιουργώ κάθε μέρα',
+                'hero.badge': 'Διαθέσιμος για Συνεργασίες',
                 'hero.about': 'Σπουδές & Εμπειρία',
                 'hero.job': 'Web Developer & Πτυχιούχος Πληροφορικής',
+                'hero.skillsList': 'React Native · Python · TypeScript · Flutter · Supabase',
                 'hero.role1': 'Web Developer',
                 'hero.role2': 'Τεχνικός Δικτύων',
                 'hero.role3': 'IT Manager',
@@ -98,7 +99,7 @@ class LanguageManager {
                 'about.internship.date': '1 Ιουλίου 2024 - 3 Οκτωβρίου 2024',
                 'about.internship.learnMore': 'Μάθε Περισσότερα',
                 'about.internship.modal.title': 'Λεπτομέρειες Πρακτικής - COSMOTE',
-                'about.internship.modal.text': 'Η μοναδική εργασιακή εμπειρία που είχα ήταν μια τρίμηνη πρακτική άσκηση στη Cosmote μέσω ΤΤΛΠ, όπου εργάστηκα ως τεχνικός πεδίου στο Κέντρο Διανομής Οπτικών Ινών Ξάνθης. Εκεί, είχα την ευκαιρία να εργαστώ, πέρα από το τεχνικό μέρος (νέες συνδέσεις, βλάβες, μεταφορές κ.λπ.), με οπτικές ίνες. Ήμουν, μαζί με έναν συνάδελφο, από τους πρώτους που εγκατέστησαν οπτικές ίνες στη Ξάνθη, εκτελώντας συνδέσεις και επισκευάζοντας βλάβες. Κατά τη διάρκεια της πρακτικής μου στη Cosmote, ολοκληρώσαμε 40 πρώτες συνδέσεις σε όλη τη Ξάνθη. Ακόμη και όταν άρχισαν άλλοι, μας ζητούσαν να τους δείξουμε τα προβλήματα που αντιμετωπίζαμε. Εργάστηκα επίσης με εξοπλισμό Cisco. Η πρακτική μου συνέπεσε με την αλλαγή προγράμματος από WFM σε FSM. Συνολικά, κατά τη διάρκεια αυτής της τρίμηνης περιόδου έμαθα πολλά και ήμουν έτοιμος για μόνιμη θέση στη Cosmote, αλλά η πρακτική μου τελείωσε.',
+                'about.internship.modal.text': 'Η μοναδική εργασιακή εμπειρία που είχα ήταν μια τρίμηνη πρακτική άσκηση στη Cosmote μέσω ΤΤΛΠ, όπου εργάστηκα ως Τεχνικός Τηλεπικοινωνιών Πεδίου Ξάνθης. Εκεί, είχα την ευκαιρία να εργαστώ, πέρα από το τεχνικό μέρος (νέες συνδέσεις, βλάβες, μεταφορές κ.λπ.), με οπτικές ίνες. Ήμουν, μαζί με έναν συνάδελφο, από τους πρώτους που εγκατέστησαν οπτικές ίνες στη Ξάνθη, εκτελώντας συνδέσεις και επισκευάζοντας βλάβες. Κατά τη διάρκεια της πρακτικής μου στη Cosmote, ολοκληρώσαμε 40 πρώτες συνδέσεις σε όλη τη Ξάνθη. Ακόμη και όταν άρχισαν άλλοι, μας ζητούσαν να τους δείξουμε τα προβλήματα που αντιμετωπίζαμε. Εργάστηκα επίσης με εξοπλισμό Cisco. Η πρακτική μου συνέπεσε με την αλλαγή προγράμματος από WFM σε FSM. Συνολικά, κατά τη διάρκεια αυτής της τρίμηνης περιόδου έμαθα πολλά και ήμουν έτοιμος για μόνιμη θέση στη Cosmote, αλλά η πρακτική μου τελείωσε.',
                 'about.internship.modal.close': 'Κλείσιμο',
 
                 // Projects additions
@@ -126,7 +127,7 @@ class LanguageManager {
                 // Hero Section
                 'hero.greeting': 'Hello, I am',
                 'hero.name': 'Dimitrios Nakos',
-                'hero.description': 'I create modern and functional websites with clean code and beautiful design.',
+                'hero.description': 'I build modern websites, mobile apps, B2B systems, and smart Home & IoT solutions with clean code and beautiful design.',
                 'hero.viewWork': 'View My Work',
                 'hero.contact': 'Contact Me',
                 'hero.downloadCV': 'Download CV',
@@ -198,9 +199,10 @@ class LanguageManager {
                 'alert.emailSent': 'Your email client will open for sending. If it doesn\'t open automatically, send email directly to: dimitriosnakos.g@gmail.com',
                 
                 // Hero additions
-                'hero.badge': '📚 Learning & creating every day',
+                'hero.badge': 'Available for Collaborations',
                 'hero.about': 'Education & Experience',
                 'hero.job': 'Web Developer & Computer Science Graduate',
+                'hero.skillsList': 'React Native · Python · TypeScript · Flutter · Supabase',
                 'hero.role1': 'Web Developer',
                 'hero.role2': 'Network Technician',
                 'hero.role3': 'IT Manager',
@@ -211,7 +213,7 @@ class LanguageManager {
                 'about.internship.date': 'July 1, 2024 - October 3, 2024',
                 'about.internship.learnMore': 'Learn More',
                 'about.internship.modal.title': 'Internship Details - COSMOTE',
-                'about.internship.modal.text': 'The only work experience I had was a three-month internship at Cosmote through ΤΤΛΠ, where I worked as a field technician at the Xanthi Optical Fiber Distribution Center. There, I had the opportunity to work, beyond the technical part (new connections, faults, transfers, etc.), with optical fibers. I was, together with a colleague, one of the first to install optical fibers in Xanthi, performing connections and repairing faults. During my internship at Cosmote, we completed 40 first connections throughout Xanthi. Even when others started, they asked us to show them the problems we were facing. I also worked with Cisco equipment. My internship coincided with the program change from WFM to FSM. Overall, during this three-month period I learned a lot and was ready for a permanent position at Cosmote, but my internship was over.',
+                'about.internship.modal.text': 'The only work experience I had was a three-month internship at Cosmote through ΤΤΛΠ, where I worked as a Field Telecommunications Technician for Xanthi. There, I had the opportunity to work, beyond the technical part (new connections, faults, transfers, etc.), with optical fibers. I was, together with a colleague, one of the first to install optical fibers in Xanthi, performing connections and repairing faults. During my internship at Cosmote, we completed 40 first connections throughout Xanthi. Even when others started, they asked us to show them the problems we were facing. I also worked with Cisco equipment. My internship coincided with the program change from WFM to FSM. Overall, during this three-month period I learned a lot and was ready for a permanent position at Cosmote, but my internship was over.',
                 'about.internship.modal.close': 'Close',
 
                 // Projects additions
