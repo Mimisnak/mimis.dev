@@ -46,6 +46,9 @@ class LanguageManager {
                 'projects.coming': 'Σύντομα...',
                 'projects.liveDemo': 'Demo',
                 'projects.sourceCode': 'Κώδικας',
+                'projects.viewSite': 'Δείτε τη Σελίδα',
+                'projects.viewDemo': 'Δείτε το Demo',
+                'projects.readmeGithub': 'README',
                 
                 // Contact Page
                 'contact.title': 'Επικοινωνία',
@@ -160,6 +163,9 @@ class LanguageManager {
                 'projects.coming': 'Coming Soon...',
                 'projects.liveDemo': 'Live Demo',
                 'projects.sourceCode': 'Source Code',
+                'projects.viewSite': 'View Site',
+                'projects.viewDemo': 'View Demo',
+                'projects.readmeGithub': 'README',
                 
                 // Contact Page
                 'contact.title': 'Contact',
